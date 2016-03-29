@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Sprite's Blog</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="<%= is_active?('/') %>"><%= link_to "Home", root_path %></li>
+        <li class="<%= is_active?('/articles') %>"><%= link_to "Blog", articles_path %></li>
+        <li class="<%= is_active?('/about') %>"><%= link_to "About", about_path %></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<!-- class="active" -->
