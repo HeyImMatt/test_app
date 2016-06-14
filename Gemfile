@@ -6,6 +6,9 @@ gem 'rails', '4.2.6'
 
 #Use bcrypt for user password storage and authentication
 gem 'bcrypt', '~> 3.1.7'
+#Pagination gems
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
