@@ -1,3 +1,3 @@
 == README
 
-This is a blogging platform web app I am working on as part of the online rails class I'm taking. You can check it out here: https://sprite-blog.herokuapp.com/
+This is a blogging platform web app I am working on as part of the online rails class I'm taking.
